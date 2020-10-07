@@ -1,0 +1,22 @@
+Project Details
+
+Find Currency API:
+- provides live data 3 times a day (i.e. 15 min delay)
+- tracking dollar/rand , aud/rand , pound/rand & euro/rand
+
+Compare the data to certain levels:
+- if the currency dips below a certain level an email notification should be sent
+- if the currency rises above a certain level a email notification should be sent
+- Send a weekly report of the currencies
+
+Example:
+dollar/ rand levels
+- Below R15, R16  
+- Above R17.50 , R18
+
+        9am         12am          5pm
+Mon     R16.60      R17.02        R16.80
+Tues    R16.58      R17.52        R17.25
+Wed     R16.28      R16.49        R16.70
+Thurs   R16.55      R16.68        R17.05    
+Fri     R16.30      R15.80        R15.95
